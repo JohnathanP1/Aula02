@@ -15,7 +15,19 @@ public class DesvioSimples {
 		/*Aqui devemos criar uma solução para verificar a idade do usuário*/
 		if (idade>=12) {
 			System.out.println("Você pode jogar");
+			Scanner leitor1 = new Scanner(System.in);
+			int ano;
+			System.out.println("Digite seu ano de nascimento");
+			ano = leitor1.nextInt();
+			System.out.println("Que legal, voce nasceu em" + ano);
+			idade = 2021 - ano;
+			System.out.println("Pelo que vi, sua idade é + idade");
+			if (idade >=18); 
+		 
+				
+	
 		}
+	
 		
 		leitor.close();
 

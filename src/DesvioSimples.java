@@ -19,11 +19,11 @@ public class DesvioSimples {
 			int ano;
 			System.out.println("Digite seu ano de nascimento");
 			ano = leitor1.nextInt();
-			System.out.println("Que legal, voce nasceu em" + ano);
+			System.out.println("Que legal, voce nasceu em " + ano);
 			idade = 2021 - ano;
 			System.out.println("Pelo que vi, sua idade é + idade");
-			if (idade >=18); 
-		 
+			if (idade >=18) {
+				
 				
 	
 		}
@@ -33,4 +33,6 @@ public class DesvioSimples {
 
 	}
 
+}
+	
 }
